@@ -10,7 +10,7 @@
       "trolol-web": "./trolol-web"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "trolol": "^1.12.0"
   }
