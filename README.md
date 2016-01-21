@@ -27,8 +27,8 @@ so to beep twice, access `http://<server>:<port>/beep?times=2`.
 
 ### `website`
 Params:
-- `from`
-- `to`
+- `from`: The web site to redirect from
+- `to`: The web site to redirect to
 
 ### `command-not-found`
 Params:
