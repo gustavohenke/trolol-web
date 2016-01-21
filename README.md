@@ -32,7 +32,7 @@ Params:
 
 ### `command-not-found`
 Params:
-- `command`
+- `command`: The command to disable
 
 ### `rebecca`
 - `saturday`: Pass this to play Saturday instead of Friday
