@@ -81,7 +81,7 @@ Params:
 
 ### `shutdown`
 Params
-- `programs`
+- `program`
 - `times`: How many times the app "crashes"
 - `range`: Variety in minutes between crashes
 - `wait`: Minimum minutes between crashes
