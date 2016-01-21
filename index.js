@@ -42,9 +42,12 @@ var handlers = {
 var server = http.createServer(function ( req, res ) {
     var parsed = url.parse( req.url, true );
     var path = parsed.pathname.replace( /^\//, "" ).split( "/" );
+    var command = path[ 0 ].replace( /-[a-z]/, function ( match ) {
+        return match.replace( "-", "" ).toUpperCase();
+    });
     
     try {
-        handlers[ path[ 0 ] ]( parsed.query );
+        handlers[ command ]( parsed.query );
     } catch ( e ) {}
     
     res.end();
