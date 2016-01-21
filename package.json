@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+      "trolol-web": "./trolol-web"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
